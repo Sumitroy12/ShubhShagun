@@ -4,6 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
+    "dev": "nodemon server.js"
+
+=======
     "start":"server.js",
     "server": "nodemon server.js",
     "frontend": "cd frontend && npm run start",
@@ -12,6 +16,7 @@
     "install-all": "concurrently \"npm run server-install\" \"npm run frontend-install\"",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
+>>>>>>> 9e6179678be685b49c28d2c957f6f871903bf0a0
   },
   "keywords": [],
   "author": "",
