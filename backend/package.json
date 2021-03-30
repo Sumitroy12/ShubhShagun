@@ -11,7 +11,7 @@
     "server-install": "npm install",
     "install-all": "concurrently \"npm run server-install\" \"npm run frontend-install\"",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
